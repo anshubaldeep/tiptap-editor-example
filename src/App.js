@@ -1,5 +1,4 @@
-import { useEffect, useRef, useState } from "react";
-import Editor from "./Editor";
+import { useState } from "react";
 import EditorWrapper from "./EditorWrapper";
 import "./styles.css";
 
