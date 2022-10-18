@@ -4,7 +4,6 @@ import Link from "@tiptap/extension-link";
 import Underline from "@tiptap/extension-underline";
 import { Toolbar } from "./Toolbar";
 import "./Editor.scss";
-import { useEffect, useState } from "react";
 
 const Tiptap = ({ value, setEditable, setValChange }) => {
   const editor = useEditor({
